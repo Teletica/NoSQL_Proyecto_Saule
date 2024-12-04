@@ -1,0 +1,73 @@
+﻿@model NoSQL_Proyecto_Saule.Models.Empleado
+
+@{
+    ViewBag.Title = "Eliminar Empleado";
+}
+
+<h2>Eliminar Empleado</h2>
+
+<h3>¿Estás seguro de que deseas eliminar este empleado?</h3>
+<div>
+    <h4>Empleado</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NombreEmpleado)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NombreEmpleado)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ApellidoUnoEmpleado)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ApellidoUnoEmpleado)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ApellidoDosEmpleado)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ApellidoDosEmpleado)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SalarioEmpleado)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SalarioEmpleado)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DescripcionHorarioEmpleado)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DescripcionHorarioEmpleado)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.contactoEmpelado.NumTelefonoUnoEmpleado)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.contactoEmpelado.NumTelefonoUnoEmpleado)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.contactoEmpelado.CorreoEmpleado)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.contactoEmpelado.CorreoEmpleado)
+        </dd>
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Eliminar" class="btn btn-danger" /> |
+            @Html.ActionLink("Regresar a la Lista", "Index", null, new { @class = "btn btn-secondary" })
+        </div>
+    }
+</div>

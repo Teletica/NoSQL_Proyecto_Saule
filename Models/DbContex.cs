@@ -1,12 +1,13 @@
 ﻿using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Web;
 
 namespace NoSQL_Proyecto_Saule.Models
 {
-    public class DbContex
+    public class DbContex : DbContext
     {
         private readonly IMongoDatabase _database;
         public DbContex()
@@ -90,5 +91,6 @@ namespace NoSQL_Proyecto_Saule.Models
             }
         }
 
+        public System.Data.Entity.DbSet<NoSQL_Proyecto_Saule.Models.Categoria> Categorias { get; set; }
     }
 }

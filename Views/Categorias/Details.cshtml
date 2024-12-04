@@ -1,0 +1,34 @@
+﻿@model NoSQL_Proyecto_Saule.Models.Categoria
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Categoria</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nombreCategoria)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nombreCategoria)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.estadoCategoria)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.estadoCategoria)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
