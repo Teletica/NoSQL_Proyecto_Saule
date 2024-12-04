@@ -1,10 +1,6 @@
-﻿using MongoDB.Bson.Serialization.Attributes;
-using MongoDB.Bson;
-using System;
-using System.Collections.Generic;
+﻿using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Web;
 
 namespace NoSQL_Proyecto_Saule.Models
 {
@@ -12,7 +8,7 @@ namespace NoSQL_Proyecto_Saule.Models
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
-        public int Id { get; set; }
+        public string Id { get; set; }
 
         [Required]
         [BsonElement("nombreGrupo")]
@@ -23,8 +19,7 @@ namespace NoSQL_Proyecto_Saule.Models
         public string descripcionGrupo { get; set; }
 
         [Required]
-        [BsonElement("Categoria")]  
-        public BsonValue IdCategoria { get; set; }  
-
+        [BsonElement("Categoria")]
+        public string IdCategoria { get; set; } // Cambiado de BsonValue a string
     }
 }

@@ -218,6 +218,7 @@
     <Compile Include="Controllers\CategoriasController.cs" />
     <Compile Include="Controllers\ComprasController.cs" />
     <Compile Include="Controllers\EmpleadosController.cs" />
+    <Compile Include="Controllers\GruposController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MarcasController.cs" />
     <Compile Include="Controllers\ProveedorsController.cs" />
@@ -329,6 +330,12 @@
     <Content Include="Views\Roles\Edit.cshtml" />
     <Content Include="Views\Roles\Index.cshtml" />
     <Content Include="Views\Roles\List.cshtml" />
+    <Content Include="Views\Grupos\Create.cshtml" />
+    <Content Include="Views\Grupos\Delete.cshtml" />
+    <Content Include="Views\Grupos\Details.cshtml" />
+    <Content Include="Views\Grupos\Edit.cshtml" />
+    <Content Include="Views\Grupos\Index.cshtml" />
+    <Content Include="Views\Grupos\List.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -15,9 +15,9 @@ namespace NoSQL_Proyecto_Saule.Models
         public string Id { get; set; }
 
         [BsonElement("idCompra")]
-        public BsonValue idCompra { get; set; }
+        public BsonValue IdCompra { get; set; }
 
         [BsonElement("idVenta")]
-        public BsonValue idVenta { get; set; }
+        public BsonValue IdVenta { get; set; }
     }
 }
