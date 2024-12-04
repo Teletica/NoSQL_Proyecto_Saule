@@ -16,7 +16,7 @@ namespace NoSQL_Proyecto_Saule.Models
             var client = new MongoClient("mongodb://localhost:27020");
 
             // Especificar la coleccion generada 
-            _database = client.GetDatabase("SauleFarmacia");
+            _database = client.GetDatabase("test");
         }
 
         public IMongoCollection<Rol> RolCollection
@@ -90,7 +90,22 @@ namespace NoSQL_Proyecto_Saule.Models
                 return _database.GetCollection<Compras>("Compras");
             }
         }
+        public IMongoCollection<Receta> RecetasCollection
+        {
+            get
+            {
+                return _database.GetCollection<Receta>("Receta");
+            }
+        }
 
         public System.Data.Entity.DbSet<NoSQL_Proyecto_Saule.Models.Categoria> Categorias { get; set; }
+
+        public System.Data.Entity.DbSet<NoSQL_Proyecto_Saule.Models.Marca> Marcas { get; set; }
+
+        public System.Data.Entity.DbSet<NoSQL_Proyecto_Saule.Models.Proveedor> Proveedors { get; set; }
+
+        public System.Data.Entity.DbSet<NoSQL_Proyecto_Saule.Models.Receta> Recetas { get; set; }
+
+        public System.Data.Entity.DbSet<NoSQL_Proyecto_Saule.Models.Rol> Rols { get; set; }
     }
 }

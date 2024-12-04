@@ -219,6 +219,10 @@
     <Compile Include="Controllers\ComprasController.cs" />
     <Compile Include="Controllers\EmpleadosController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MarcasController.cs" />
+    <Compile Include="Controllers\ProveedorsController.cs" />
+    <Compile Include="Controllers\RecetasController.cs" />
+    <Compile Include="Controllers\RolsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -232,7 +236,7 @@
     <Compile Include="Models\Marca.cs" />
     <Compile Include="Models\Producto.cs" />
     <Compile Include="Models\Proveedor.cs" />
-    <Compile Include="Models\Recetas.cs" />
+    <Compile Include="Models\Receta.cs" />
     <Compile Include="Models\Rol.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -301,6 +305,30 @@
     <Content Include="Views\Empleados\Edit.cshtml" />
     <Content Include="Views\Compras\Index.cshtml" />
     <Content Include="Views\Compras\List.cshtml" />
+    <Content Include="Views\Proveedores\Create.cshtml" />
+    <Content Include="Views\Proveedores\Delete.cshtml" />
+    <Content Include="Views\Proveedores\Details.cshtml" />
+    <Content Include="Views\Proveedores\Edit.cshtml" />
+    <Content Include="Views\Proveedores\Index.cshtml" />
+    <Content Include="Views\Marcas\Create.cshtml" />
+    <Content Include="Views\Marcas\Delete.cshtml" />
+    <Content Include="Views\Marcas\Details.cshtml" />
+    <Content Include="Views\Marcas\Edit.cshtml" />
+    <Content Include="Views\Marcas\Index.cshtml" />
+    <Content Include="Views\Marcas\List.cshtml" />
+    <Content Include="Views\Proveedores\List.cshtml" />
+    <Content Include="Views\Recetas\Create.cshtml" />
+    <Content Include="Views\Recetas\Delete.cshtml" />
+    <Content Include="Views\Recetas\Details.cshtml" />
+    <Content Include="Views\Recetas\Edit.cshtml" />
+    <Content Include="Views\Recetas\Index.cshtml" />
+    <Content Include="Views\Recetas\List.cshtml" />
+    <Content Include="Views\Roles\Create.cshtml" />
+    <Content Include="Views\Roles\Delete.cshtml" />
+    <Content Include="Views\Roles\Details.cshtml" />
+    <Content Include="Views\Roles\Edit.cshtml" />
+    <Content Include="Views\Roles\Index.cshtml" />
+    <Content Include="Views\Roles\List.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

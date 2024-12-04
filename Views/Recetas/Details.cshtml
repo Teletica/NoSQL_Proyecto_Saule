@@ -1,0 +1,50 @@
+﻿@model NoSQL_Proyecto_Saule.Models.Receta
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Receta</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.descripcionReceta)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.descripcionReceta)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.fechaReceta)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fechaReceta)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.prescriptorReceta)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.prescriptorReceta)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.firmaPrescriptorReceta)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.firmaPrescriptorReceta)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

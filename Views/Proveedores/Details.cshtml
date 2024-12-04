@@ -1,0 +1,58 @@
+﻿@model NoSQL_Proyecto_Saule.Models.Proveedor
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Proveedor</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NombreProveedor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NombreProveedor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ApellidoUnoProveedor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ApellidoUnoProveedor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ApellidoDosProveedor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ApellidoDosProveedor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CompanyProveedor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CompanyProveedor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ContactoProveedor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ContactoProveedor)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

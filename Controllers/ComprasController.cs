@@ -61,7 +61,7 @@ namespace NoSQL_Proyecto_Saule.Controllers
             }
 
             return View(compra);
-        }
+        }   
 
         // GET: Compras/Edit/5
         public ActionResult Edit(string id)

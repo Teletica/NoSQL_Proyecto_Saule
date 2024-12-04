@@ -1,0 +1,56 @@
+﻿@model NoSQL_Proyecto_Saule.Models.Receta
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Receta</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.descripcionReceta)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.descripcionReceta)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.fechaReceta)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fechaReceta)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.prescriptorReceta)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.prescriptorReceta)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.firmaPrescriptorReceta)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.firmaPrescriptorReceta)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>
