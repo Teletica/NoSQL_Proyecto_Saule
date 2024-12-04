@@ -1,33 +1,69 @@
 ﻿@{
     ViewBag.Title = "Home Page";
+    Layout = null;
 }
 
-<main>
-    <section class="row" aria-labelledby="aspnetTitle">
-        <h1 id="title">ASP.NET</h1>
-        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-        <p><a href="https://asp.net" class="btn btn-primary btn-md">Learn more &raquo;</a></p>
-    </section>
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>@ViewBag.Title - Mi aplicación ASP.NET</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
 
-    <div class="row">
-        <section class="col-md-4" aria-labelledby="gettingStartedTitle">
-            <h2 id="gettingStartedTitle">Getting started</h2>
-            <p>
-                ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-                enables a clean separation of concerns and gives you full control over markup
-                for enjoyable, agile development.
-            </p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
-        </section>
-        <section class="col-md-4" aria-labelledby="librariesTitle">
-            <h2 id="librariesTitle">Get more libraries</h2>
-            <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-        </section>
-        <section class="col-md-4" aria-labelledby="hostingTitle">
-            <h2 id="hostingTitle">Web Hosting</h2>
-            <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-        </section>
-    </div>
-</main>
+    <style>
+        .btn-dark {
+            background-color: black;
+        }
+
+        .btn-dark:hover {
+            background-color: #141414;
+        }
+
+        .btn-dark:active {
+            background-color: black;
+        }
+
+        a {
+            color:black;
+            text-decoration: none;
+        }
+    </style>
+
+    <main>
+        <div class="title" style="font-family: Helvetica; text-align: center; color: black; font-size: 128px; margin-top:180px">
+            <p>Farmacia Säule</p>
+            @Html.ActionLink("Comienza a Gestionar", "Contact", "Home", null, new { @class = "btn btn-dark btn-lg", style = "margin-bottom: 200px; border-radius: 0;" }
+)
+        </div>
+
+        <div class="container body-content" style="font-family: Arial, Helvetica, sans-serif; text-align: center">
+            <footer>
+                <a href="https://www.instagram.com/farmaciassaule?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                    <i class="fa fa-instagram" style="font-size: 24px"></i>
+                    <span style="font-size: 20px;">farmaciassaule</span>
+                </a>
+
+                <span>&nbsp;&nbsp;-&nbsp;&nbsp;</span>
+                <a href="https://www.facebook.com/Farmacias.Saule/">
+                    <i class="fa fa-facebook-official" style="font-size: 24px"></i>
+                    <span style="font-size: 20px;">Farmacias Säule</span>
+                </a>
+
+                <span>&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;</span>
+                <i class="fa fa-whatsapp" style="font-size: 24px"></i>
+                <span style="font-size: 18px;">4081-1368&nbsp;&nbsp;/&nbsp;&nbsp;8453-7272</span>
+
+                <span>&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;</span>
+                <i class="fa fa-envelope" style="font-size: 24px"></i>
+                <span style="font-size: 20px;">farmaciassaule@gmail.com</span>
+
+            </footer>
+        </div>
+
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+    </main>

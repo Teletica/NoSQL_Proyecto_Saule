@@ -1,19 +1,86 @@
 ﻿@{
     ViewBag.Title = "Contact";
 }
+
 <main aria-labelledby="title">
-    <h2 id="title">@ViewBag.Title.</h2>
-    <h3>@ViewBag.Message</h3>
-
-    <address>
-        One Microsoft Way<br />
-        Redmond, WA 98052-6399<br />
-        <abbr title="Phone">P:</abbr>
-        425.555.0100
-    </address>
-
-    <address>
-        <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-        <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-    </address>
+    <div style="display: flex; width: 100%; height: 35vh; justify-content: center; align-content: center; font-family: Arial, Helvetica, sans-serif">
+        @Html.ActionLink("Productos", "Index", "Productos", null, new { @class = "btn btn-rosado", style = "flex: 1; height: 35vh; border-radius: 0; justify-content: center; align-content: center" })
+        @Html.ActionLink("Marcas", "Index", "Marcas", null, new { @class = "btn btn-mandarina", style = "flex: 1; height: 35vh; border-radius: 0; justify-content: center; align-content: center" })
+        @Html.ActionLink("Proveedores", "Index", "Proveedores", null, new { @class = "btn btn-amarillo", style = "flex: 1; height: 35vh; border-radius: 0; justify-content: center; align-content: center" })
+        @Html.ActionLink("Clientes", "Index", "Clientes", null, new { @class = "btn btn-cyan", style = "flex: 1; height: 35vh; border-radius: 0; justify-content: center; align-content: center" })
+        @Html.ActionLink("Recetas", "Index", "Recetas", null, new { @class = "btn btn-azul", style = "flex: 1; height: 35vh; border-radius: 0; justify-content: center; align-content: center" })
+        @Html.ActionLink("Roles", "Index", "Roles", null, new { @class = "btn btn-morado", style = "flex: 1; height: 35vh; border-radius: 0; justify-content: center; align-content: center" })
+    </div>
+    <div style="display: flex; width: 100%; height: 35vh;">
+        @Html.ActionLink("Categorías", "Index", "Categorias", null, new { @class = "btn btn-rojo", style = "flex: 1; height: 35vh; border-radius: 0; justify-content: center; align-content: center" })
+        @Html.ActionLink("Grupos", "Index", "Grupos", null, new { @class = "btn btn-naranja", style = "flex: 1; height: 35vh; border-radius: 0; justify-content: center; align-content: center" })
+        @Html.ActionLink("Empleados", "Index", "Empleados", null, new { @class = "btn btn-lima", style = "flex: 1; height: 35vh; border-radius: 0; justify-content: center; align-content: center" })
+        @Html.ActionLink("Facturas", "Index", "Facturas", null, new { @class = "btn btn-verde", style = "flex: 1; height: 35vh; border-radius: 0; justify-content: center; align-content: center" })
+        @Html.ActionLink("Compras", "Index", "Compras", null, new { @class = "btn btn-violeta", style = "flex: 1; height: 35vh; border-radius: 0; justify-content: center; align-content: center" })
+        @Html.ActionLink("...", "Contact", "Home", null, new { @class = "btn btn-blanco", style = "flex: 1; height: 35vh; border-radius: 0; justify-content: center; align-content: center; color: black" })
+    </div>
 </main>
+
+<style>
+
+    .btn-rosado {
+        background-color: #E31667;
+        color: white;
+    }
+
+    .btn-rojo {
+        background-color: #DC3545;
+        color: white;
+    }
+
+    .btn-naranja {
+        background-color: #DC5B38;
+        color: white;
+    }
+
+    .btn-mandarina {
+        background-color: #DC7A39;
+        color: white;
+    }
+
+    .btn-amarillo {
+        background-color: #E3AB34;
+        color: white;
+    }
+
+    .btn-lima {
+        background-color: #A4D137;
+        color: white;
+    }
+
+    .btn-verde {
+        background-color: #00CF4C;
+        color: white;
+    }
+
+    .btn-cyan {
+        background-color: #37E3AF;
+        color: white;
+    }
+
+    .btn-azul {
+        background-color: #3197E3;
+        color: white;
+    }
+
+    .btn-violeta {
+        background-color: #5926E3;
+        color: white;
+    }
+
+    .btn-morado {
+        background-color: #9F22E3;
+        color: white;
+    }
+
+    .btn-blanco {
+        background-color: white;
+        color: white;
+    }
+
+</style>
