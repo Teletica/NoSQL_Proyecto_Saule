@@ -1,0 +1,42 @@
+﻿@model IEnumerable<NoSQL_Proyecto_Saule.Models.Facturas>
+
+@{
+    ViewBag.Title = "List";
+}
+
+<h2>Lista de Facturas</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create", null, new { @class = "btn btn-primary" })
+</p>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.First().IdCompra)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().IdVenta)
+            </th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdCompra)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdVenta)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.Id }, new { @class = "btn btn-warning btn-sm" }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.Id }, new { @class = "btn btn-info btn-sm" }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Id }, new { @class = "btn btn-danger btn-sm" })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,10 +1,6 @@
 ﻿using MongoDB.Bson.Serialization.Attributes;
 using MongoDB.Bson;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Web;
 
 namespace NoSQL_Proyecto_Saule.Models
 {
@@ -14,10 +10,12 @@ namespace NoSQL_Proyecto_Saule.Models
         [BsonRepresentation(BsonType.ObjectId)]
         public string Id { get; set; }
 
+        [Required]
         [BsonElement("idCompra")]
-        public BsonValue IdCompra { get; set; }
+        public string IdCompra { get; set; } // Cambiado de BsonValue a string
 
+        [Required]
         [BsonElement("idVenta")]
-        public BsonValue IdVenta { get; set; }
+        public string IdVenta { get; set; } // Cambiado de BsonValue a string
     }
 }

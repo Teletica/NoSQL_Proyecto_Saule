@@ -1,0 +1,42 @@
+﻿@model NoSQL_Proyecto_Saule.Models.Compras
+
+@{
+    ViewBag.Title = "Delete Compra";
+}
+
+<h2>Delete Compra</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Compra</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.FechaCompra)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.FechaCompra)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProductosCompra)
+        </dt>
+        <dd>
+            @foreach (var producto in Model.ProductosCompra)
+            {
+                <p>@producto</p>
+            }
+        </dd>
+    </dl>
+
+    @using (Html.BeginForm("Delete", "Compras", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+
+        <input type="hidden" name="id" value="@Model.Id" />
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-danger" /> |
+            @Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-default" })
+        </div>
+    }
+</div>

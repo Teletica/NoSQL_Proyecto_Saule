@@ -1,9 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Net;
 using System.Web.Mvc;
 using MongoDB.Driver;
 using NoSQL_Proyecto_Saule.Models;
+using System.Collections.Generic;
 
 namespace NoSQL_Proyecto_Saule.Controllers
 {
@@ -13,35 +13,54 @@ namespace NoSQL_Proyecto_Saule.Controllers
 
         public ComprasController()
         {
-            _context = new DbContex();
+            _context = new DbContex(); // Inicializa el contexto
         }
 
         // GET: Compras
         public ActionResult Index()
         {
-            return View();
+            return RedirectToAction("List"); // Redirige directamente a la lista
         }
 
         // GET: Compras/List
         public ActionResult List()
         {
-            var compras = _context.ComprasCollection.Find(_ => true).ToList();
-            return View(compras);
+            try
+            {
+                var compras = _context.ComprasCollection.Find(_ => true).ToList();
+                return View(compras);
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Error = $"Error al obtener la lista de compras: {ex.Message}";
+                return View("Error");
+            }
         }
 
         // GET: Compras/Details/5
         public ActionResult Details(string id)
         {
-            var compra = _context.ComprasCollection
-                .Find(e => e.Id == id)
-                .FirstOrDefault();
-
-            if (compra == null)
+            if (string.IsNullOrEmpty(id))
             {
-                return HttpNotFound();
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest, "ID no válido.");
             }
 
-            return View(compra);
+            try
+            {
+                var compra = _context.ComprasCollection.Find(e => e.Id == id).FirstOrDefault();
+
+                if (compra == null)
+                {
+                    return HttpNotFound("Compra no encontrada.");
+                }
+
+                return View(compra);
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Error = $"Error al obtener detalles de la compra: {ex.Message}";
+                return View("Error");
+            }
         }
 
         // GET: Compras/Create
@@ -52,47 +71,73 @@ namespace NoSQL_Proyecto_Saule.Controllers
 
         // POST: Compras/Create
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public ActionResult Create(Compras compra)
         {
             if (ModelState.IsValid)
             {
-                _context.ComprasCollection.InsertOne(compra);
-                return RedirectToAction("Index");
-            }
-
-            return View(compra);
-        }   
-
-        // GET: Compras/Edit/5
-        public ActionResult Edit(string id)
-        {
-            var compra = _context.ComprasCollection
-                .Find(e => e.Id == id)
-                .FirstOrDefault();
-
-            if (compra == null)
-            {
-                return HttpNotFound();
+                try
+                {
+                    _context.ComprasCollection.InsertOne(compra);
+                    return RedirectToAction("List");
+                }
+                catch (Exception ex)
+                {
+                    ViewBag.Error = $"Error al crear la compra: {ex.Message}";
+                }
             }
 
             return View(compra);
         }
 
+        // GET: Compras/Edit/5
+        public ActionResult Edit(string id)
+        {
+            if (string.IsNullOrEmpty(id))
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest, "ID no válido.");
+            }
+
+            try
+            {
+                var compra = _context.ComprasCollection.Find(e => e.Id == id).FirstOrDefault();
+
+                if (compra == null)
+                {
+                    return HttpNotFound("Compra no encontrada.");
+                }
+
+                return View(compra);
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Error = $"Error al obtener la compra para edición: {ex.Message}";
+                return View("Error");
+            }
+        }
+
         // POST: Compras/Edit/5
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public ActionResult Edit(string id, Compras compra)
         {
             if (id != compra.Id)
             {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest, "ID no coincide.");
             }
 
             if (ModelState.IsValid)
             {
-                var filter = Builders<Compras>.Filter.Eq(e => e.Id, id);
-                _context.ComprasCollection.ReplaceOne(filter, compra);
-
-                return RedirectToAction("Index");
+                try
+                {
+                    var filter = Builders<Compras>.Filter.Eq(e => e.Id, id);
+                    _context.ComprasCollection.ReplaceOne(filter, compra);
+                    return RedirectToAction("List");
+                }
+                catch (Exception ex)
+                {
+                    ViewBag.Error = $"Error al actualizar la compra: {ex.Message}";
+                }
             }
 
             return View(compra);
@@ -101,32 +146,45 @@ namespace NoSQL_Proyecto_Saule.Controllers
         // GET: Compras/Delete/5
         public ActionResult Delete(string id)
         {
-            var compra = _context.ComprasCollection
-                .Find(e => e.Id == id)
-                .FirstOrDefault();
-
-            if (compra == null)
+            if (string.IsNullOrEmpty(id))
             {
-                return HttpNotFound();
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest, "ID no válido.");
             }
 
-            return View(compra);
+            try
+            {
+                var compra = _context.ComprasCollection.Find(e => e.Id == id).FirstOrDefault();
+
+                if (compra == null)
+                {
+                    return HttpNotFound("Compra no encontrada.");
+                }
+
+                return View(compra);
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Error = $"Error al obtener la compra para eliminación: {ex.Message}";
+                return View("Error");
+            }
         }
 
         // POST: Compras/Delete/5
         [HttpPost]
-        public ActionResult Delete(string id, FormCollection collection)
+        [ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public ActionResult DeleteConfirmed(string id)
         {
             try
             {
                 var filter = Builders<Compras>.Filter.Eq(e => e.Id, id);
                 _context.ComprasCollection.DeleteOne(filter);
-
-                return RedirectToAction("Index");
+                return RedirectToAction("List");
             }
-            catch
+            catch (Exception ex)
             {
-                return View();
+                ViewBag.Error = $"Error al eliminar la compra: {ex.Message}";
+                return View("Error");
             }
         }
     }
