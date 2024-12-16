@@ -1,0 +1,50 @@
+﻿@model NoSQL_Proyecto_Saule.Models.Cliente
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Cliente</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NombreCliente)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NombreCliente)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ApellidoUnoCliente)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ApellidoUnoCliente)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ApellidoDosCliente)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ApellidoDosCliente)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CedulaCliente)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CedulaCliente)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

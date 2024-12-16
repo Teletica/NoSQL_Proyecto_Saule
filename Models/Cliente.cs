@@ -33,6 +33,7 @@ namespace NoSQL_Proyecto_Saule.Models
         [BsonElement("contactoCliente")]
         public ContactoCliente contactoCliente { get; set; }
 
+
         public class ContactoCliente
         {
             [Required]

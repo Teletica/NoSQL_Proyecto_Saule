@@ -16,7 +16,7 @@ namespace NoSQL_Proyecto_Saule.Models
             var client = new MongoClient("mongodb://localhost:27020");
 
             // Especificar la coleccion generada 
-            _database = client.GetDatabase("test");
+            _database = client.GetDatabase("SauleFarmacia");
         }
 
         public IMongoCollection<Rol> RolCollection
