@@ -67,15 +67,15 @@ namespace NoSQL_Proyecto_Saule.Controllers
         public ActionResult Create()
         {
             var categorias = _context.CategorialCollection
-                           .Find(_ => true)
-                           .Project(c => new SelectListItem
-                           {
-                               Value = c.Id,
-                               Text = c.nombreCategoria
-                           })
-                           .ToList();
+            .Find(_ => true)
+            .Project(c => new SelectListItem
+            {
+                Value = c.Id.ToString(),  // Convertimos el Id de la categoría a string
+                Text = c.nombreCategoria
+            })
+            .ToList();
 
-            ViewBag.Categorias = categorias; 
+            ViewBag.Categorias = categorias;
 
             return View();
         }
@@ -85,18 +85,25 @@ namespace NoSQL_Proyecto_Saule.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create(Grupo grupo)
         {
+           
+
             if (ModelState.IsValid)
             {
-                try
-                {
-                    _context.GrupoCollection.InsertOne(grupo); // Insertar nuevo grupo en MongoDB
-                    return RedirectToAction("List");
-                }
-                catch (Exception ex)
-                {
-                    ViewBag.Error = $"Error al crear el grupo: {ex.Message}";
-                }
+                _context.GrupoCollection.InsertOne(grupo);
+                return RedirectToAction("List");
+                
             }
+
+            var categorias = _context.CategorialCollection
+            .Find(_ => true)
+            .Project(c => new SelectListItem
+            {
+                Value = c.Id.ToString(),  // Convertimos el Id de la categoría a string
+                Text = c.nombreCategoria
+            })
+            .ToList();
+
+            ViewBag.Categorias = categorias;
 
             return View(grupo);
         }
@@ -104,6 +111,17 @@ namespace NoSQL_Proyecto_Saule.Controllers
         // GET: Grupos/Edit/5
         public ActionResult Edit(string id)
         {
+            var categorias = _context.CategorialCollection
+             .Find(_ => true)
+             .Project(c => new SelectListItem
+             {
+                 Value = c.Id.ToString(),  // Convertimos el Id de la categoría a string
+                 Text = c.nombreCategoria
+             })
+             .ToList();
+
+            ViewBag.Categorias = categorias;
+
             if (string.IsNullOrEmpty(id))
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest, "ID inválido.");
@@ -132,6 +150,17 @@ namespace NoSQL_Proyecto_Saule.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Edit(string id, Grupo grupo)
         {
+            var categorias = _context.CategorialCollection
+            .Find(_ => true)
+            .Project(c => new SelectListItem
+            {
+                Value = c.Id.ToString(),  // Convertimos el Id de la categoría a string
+                Text = c.nombreCategoria
+            })
+            .ToList();
+
+            ViewBag.Categorias = categorias;
+
             if (id != grupo.Id)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest, "ID no coincide.");

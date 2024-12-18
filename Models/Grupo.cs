@@ -20,6 +20,13 @@ namespace NoSQL_Proyecto_Saule.Models
 
         [Required]
         [BsonElement("Categoria")]
-        public BsonValue IdCategoria { get; set; } // Cambiado de BsonValue a string
+        public IdContainer IdCategoria { get; set; } 
+
+        public class IdContainer
+        {
+            [BsonElement("_id")]
+            [BsonRepresentation(BsonType.ObjectId)]
+            public string Id { get; set; }
+        }
     }
 }

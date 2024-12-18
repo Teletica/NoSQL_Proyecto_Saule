@@ -1,4 +1,5 @@
-﻿using MongoDB.Driver;
+﻿using MongoDB.Bson;
+using MongoDB.Driver;
 using NoSQL_Proyecto_Saule.Models;
 using System;
 using System.Collections.Generic;
@@ -49,6 +50,38 @@ namespace NoSQL_Proyecto_Saule.Controllers
         // GET: Productos/Create
         public ActionResult Create()
         {
+            var grupos = _context.GrupoCollection
+                             .Find(_ => true)
+                             .Project(g => new SelectListItem
+                             {
+                                 Value = g.Id,
+                                 Text = g.nombrGrupo // Asegúrate de que 'Nombre' es el nombre del grupo
+                             })
+                             .ToList();
+            ViewBag.Grupos = grupos;
+
+            // Cargar las marcas disponibles
+            var marcas = _context.MarcaCollection
+                                 .Find(_ => true)
+                                 .Project(m => new SelectListItem
+                                 {
+                                     Value = m.Id,
+                                     Text = m.nombreMarca // Asegúrate de que 'Nombre' es el nombre de la marca
+                                 })
+                                 .ToList();
+            ViewBag.Marcas = marcas;
+
+            // Cargar los proveedores disponibles
+            var proveedores = _context.ProveedorCollection
+                                      .Find(_ => true)
+                                      .Project(p => new SelectListItem
+                                      {
+                                          Value = p.Id,
+                                          Text = p.NombreProveedor // Asegúrate de que 'Nombre' es el nombre del proveedor
+                                      })
+                                      .ToList();
+            ViewBag.Proveedores = proveedores;
+
             return View();
         }
 
@@ -56,11 +89,47 @@ namespace NoSQL_Proyecto_Saule.Controllers
         [HttpPost]
         public ActionResult Create(Producto producto)
         {
+
             if (ModelState.IsValid)
             {
+               
                 _context.ProductoCollection.InsertOne(producto);
                 return RedirectToAction("Index");
+                
             }
+
+            var grupos = _context.GrupoCollection
+                         .Find(_ => true)
+                         .ToList()
+                         .Select(g => new SelectListItem
+                         {
+                             Value = g.Id.ToString(),
+                             Text = g.nombrGrupo
+                         })
+                         .ToList();
+            ViewBag.Grupos = grupos;
+
+            var marcas = _context.MarcaCollection
+                                 .Find(_ => true)
+                                 .ToList()
+                                 .Select(m => new SelectListItem
+                                 {
+                                     Value = m.Id.ToString(),
+                                     Text = m.nombreMarca
+                                 })
+                                 .ToList();
+            ViewBag.Marcas = marcas;
+
+            var proveedores = _context.ProveedorCollection
+                                      .Find(_ => true)
+                                      .ToList()
+                                      .Select(p => new SelectListItem
+                                      {
+                                          Value = p.Id.ToString(),
+                                          Text = p.NombreProveedor
+                                      })
+                                      .ToList();
+            ViewBag.Proveedores = proveedores;
 
             return View(producto);
         }
@@ -68,6 +137,38 @@ namespace NoSQL_Proyecto_Saule.Controllers
         // GET: Productos/Edit/5
         public ActionResult Edit(string id)
         {
+            var grupos = _context.GrupoCollection
+                             .Find(_ => true)
+                             .Project(g => new SelectListItem
+                             {
+                                 Value = g.Id,
+                                 Text = g.nombrGrupo // Asegúrate de que 'Nombre' es el nombre del grupo
+                             })
+                             .ToList();
+            ViewBag.Grupos = grupos;
+
+            // Cargar las marcas disponibles
+            var marcas = _context.MarcaCollection
+                                 .Find(_ => true)
+                                 .Project(m => new SelectListItem
+                                 {
+                                     Value = m.Id,
+                                     Text = m.nombreMarca // Asegúrate de que 'Nombre' es el nombre de la marca
+                                 })
+                                 .ToList();
+            ViewBag.Marcas = marcas;
+
+            // Cargar los proveedores disponibles
+            var proveedores = _context.ProveedorCollection
+                                      .Find(_ => true)
+                                      .Project(p => new SelectListItem
+                                      {
+                                          Value = p.Id,
+                                          Text = p.NombreProveedor // Asegúrate de que 'Nombre' es el nombre del proveedor
+                                      })
+                                      .ToList();
+            ViewBag.Proveedores = proveedores;
+
             var producto = _context.ProductoCollection
                 .Find(p => p.Id == id)
                 .FirstOrDefault();
@@ -84,6 +185,39 @@ namespace NoSQL_Proyecto_Saule.Controllers
         [HttpPost]
         public ActionResult Edit(string id, Producto producto)
         {
+            var grupos = _context.GrupoCollection
+                         .Find(_ => true)
+                         .ToList()
+                         .Select(g => new SelectListItem
+                         {
+                             Value = g.Id.ToString(),
+                             Text = g.nombrGrupo
+                         })
+                         .ToList();
+            ViewBag.Grupos = grupos;
+
+            var marcas = _context.MarcaCollection
+                                 .Find(_ => true)
+                                 .ToList()
+                                 .Select(m => new SelectListItem
+                                 {
+                                     Value = m.Id.ToString(),
+                                     Text = m.nombreMarca
+                                 })
+                                 .ToList();
+            ViewBag.Marcas = marcas;
+
+            var proveedores = _context.ProveedorCollection
+                                      .Find(_ => true)
+                                      .ToList()
+                                      .Select(p => new SelectListItem
+                                      {
+                                          Value = p.Id.ToString(),
+                                          Text = p.NombreProveedor
+                                      })
+                                      .ToList();
+            ViewBag.Proveedores = proveedores;
+
             if (id != producto.Id)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
