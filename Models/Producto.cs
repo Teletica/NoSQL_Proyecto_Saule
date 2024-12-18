@@ -28,13 +28,20 @@ namespace NoSQL_Proyecto_Saule.Models
         public int StockProducto { get; set; }
 
         [BsonElement("idGrupo")]
-        public BsonValue IdGrupo { get; set; } 
+        public IdContainer IdGrupo { get; set; }
 
         [BsonElement("idMarca")]
-        public BsonValue IdMarca { get; set; } 
+        public IdContainer IdMarca { get; set; }
 
         [BsonElement("idProveedor")]
-        public BsonValue IdProveedor { get; set; } 
+        public IdContainer IdProveedor { get; set; }
+    }
+
+    public class IdContainer
+    {
+        [BsonElement("_id")]
+        [BsonRepresentation(BsonType.ObjectId)]
+        public string Id { get; set; }
     }
 
 }
