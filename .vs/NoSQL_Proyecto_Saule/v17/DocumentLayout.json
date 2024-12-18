@@ -3,7 +3,19 @@
   "WorkspaceRootPath": "C:\\Projectos\\NoSQL_Proyecto_Saule\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|C:\\Projectos\\NoSQL_Proyecto_Saule\\views\\clientes\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|c:\\projectos\\nosql_proyecto_saule\\models\\grupo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:models\\grupo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|C:\\Projectos\\NoSQL_Proyecto_Saule\\controllers\\gruposcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:controllers\\gruposcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|C:\\Projectos\\NoSQL_Proyecto_Saule\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|c:\\projectos\\nosql_proyecto_saule\\views\\clientes\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:views\\clientes\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -15,7 +27,7 @@
       "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|c:\\projectos\\nosql_proyecto_saule\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|C:\\Projectos\\NoSQL_Proyecto_Saule\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -61,10 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|C:\\Projectos\\NoSQL_Proyecto_Saule\\views\\clientes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:views\\clientes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|C:\\Projectos\\NoSQL_Proyecto_Saule\\controllers\\gruposcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:controllers\\gruposcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|C:\\Projectos\\NoSQL_Proyecto_Saule\\controllers\\comprascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -141,10 +149,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|C:\\Projectos\\NoSQL_Proyecto_Saule\\models\\facturas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:models\\facturas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|C:\\Projectos\\NoSQL_Proyecto_Saule\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -154,7 +158,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 62,
+          "SelectedChildIndex": 57,
           "Children": [
             {
               "$type": "Bookmark",
@@ -386,44 +390,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Views\\Clientes\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Clientes\\Create.cshtml",
-              "ToolTip": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Views\\Clientes\\Create.cshtml",
-              "RelativeToolTip": "Views\\Clientes\\Create.cshtml",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-16T22:06:49.205Z",
+              "DocumentIndex": 0,
+              "Title": "Grupo.cs",
+              "DocumentMoniker": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Models\\Grupo.cs",
+              "RelativeDocumentMoniker": "Models\\Grupo.cs",
+              "ToolTip": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Models\\Grupo.cs",
+              "RelativeToolTip": "Models\\Grupo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T03:03:08.651Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Views\\Clientes\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Clientes\\Index.cshtml",
-              "ToolTip": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Views\\Clientes\\Index.cshtml",
-              "RelativeToolTip": "Views\\Clientes\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-16T20:41:45.071Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DbContex.cs",
-              "DocumentMoniker": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Models\\DbContex.cs",
-              "RelativeDocumentMoniker": "Models\\DbContex.cs",
-              "ToolTip": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Models\\DbContex.cs",
-              "RelativeToolTip": "Models\\DbContex.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAABIAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T00:28:24.277Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Models\\Cliente.cs",
               "RelativeDocumentMoniker": "Models\\Cliente.cs",
@@ -431,12 +411,11 @@
               "RelativeToolTip": "Models\\Cliente.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAwwCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T23:16:58.072Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T23:16:58.072Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "ClientesController.cs",
               "DocumentMoniker": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Controllers\\ClientesController.cs",
               "RelativeDocumentMoniker": "Controllers\\ClientesController.cs",
@@ -444,25 +423,24 @@
               "RelativeToolTip": "Controllers\\ClientesController.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAIwD0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T20:40:02.998Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-16T20:40:02.998Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "List.cshtml",
               "DocumentMoniker": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Views\\Clientes\\List.cshtml",
               "RelativeDocumentMoniker": "Views\\Clientes\\List.cshtml",
               "ToolTip": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Views\\Clientes\\List.cshtml",
               "RelativeToolTip": "Views\\Clientes\\List.cshtml",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAwBoAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-16T21:31:09.365Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Views\\Empleados\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Empleados\\Create.cshtml",
@@ -474,7 +452,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "RouteConfig.cs",
               "DocumentMoniker": "C:\\Projectos\\NoSQL_Proyecto_Saule\\App_Start\\RouteConfig.cs",
               "RelativeDocumentMoniker": "App_Start\\RouteConfig.cs",
@@ -486,7 +464,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Views\\Clientes\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Clientes\\Delete.cshtml",
@@ -498,7 +476,69 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
+              "Title": "Empleado.cs",
+              "DocumentMoniker": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Models\\Empleado.cs",
+              "RelativeDocumentMoniker": "Models\\Empleado.cs",
+              "ToolTip": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Models\\Empleado.cs",
+              "RelativeToolTip": "Models\\Empleado.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T23:49:47.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GruposController.cs",
+              "DocumentMoniker": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Controllers\\GruposController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GruposController.cs",
+              "ToolTip": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Controllers\\GruposController.cs",
+              "RelativeToolTip": "Controllers\\GruposController.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAgwKgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T00:32:39.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DbContex.cs",
+              "DocumentMoniker": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Models\\DbContex.cs",
+              "RelativeDocumentMoniker": "Models\\DbContex.cs",
+              "ToolTip": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Models\\DbContex.cs",
+              "RelativeToolTip": "Models\\DbContex.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAABIAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T00:28:24.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Views\\Clientes\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Clientes\\Index.cshtml",
+              "ToolTip": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Views\\Clientes\\Index.cshtml",
+              "RelativeToolTip": "Views\\Clientes\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T20:41:45.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Views\\Clientes\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Clientes\\Create.cshtml",
+              "ToolTip": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Views\\Clientes\\Create.cshtml",
+              "RelativeToolTip": "Views\\Clientes\\Create.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T22:06:49.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "CategoriasController.cs",
               "DocumentMoniker": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Controllers\\CategoriasController.cs",
               "RelativeDocumentMoniker": "Controllers\\CategoriasController.cs",
@@ -510,7 +550,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Views\\Clientes\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Clientes\\Details.cshtml",
@@ -522,7 +562,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Views\\Clientes\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Clientes\\Edit.cshtml",
@@ -534,7 +574,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "List.cshtml",
               "DocumentMoniker": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Views\\Empleados\\List.cshtml",
               "RelativeDocumentMoniker": "Views\\Empleados\\List.cshtml",
@@ -546,7 +586,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Views\\Empleados\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Empleados\\Index.cshtml",
@@ -558,7 +598,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "EmpleadosController.cs",
               "DocumentMoniker": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Controllers\\EmpleadosController.cs",
               "RelativeDocumentMoniker": "Controllers\\EmpleadosController.cs",
@@ -570,7 +610,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Web.config",
               "RelativeDocumentMoniker": "Web.config",
@@ -583,7 +623,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "List.cshtml",
               "DocumentMoniker": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Views\\Compras\\List.cshtml",
               "RelativeDocumentMoniker": "Views\\Compras\\List.cshtml",
@@ -595,7 +635,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Views\\Compras\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Compras\\Edit.cshtml",
@@ -607,7 +647,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Views\\Compras\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Compras\\Details.cshtml",
@@ -619,7 +659,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Views\\Compras\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Compras\\Delete.cshtml",
@@ -631,7 +671,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Views\\Compras\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Compras\\Create.cshtml",
@@ -643,19 +683,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "GruposController.cs",
-              "DocumentMoniker": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Controllers\\GruposController.cs",
-              "RelativeDocumentMoniker": "Controllers\\GruposController.cs",
-              "ToolTip": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Controllers\\GruposController.cs",
-              "RelativeToolTip": "Controllers\\GruposController.cs",
-              "ViewState": "AgIAAJEAAAAAAAAAAAAQwKgAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T00:32:39.952Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "List.cshtml",
               "DocumentMoniker": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Views\\Grupos\\List.cshtml",
               "RelativeDocumentMoniker": "Views\\Grupos\\List.cshtml",
@@ -667,7 +695,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "ComprasController.cs",
               "DocumentMoniker": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Controllers\\ComprasController.cs",
               "RelativeDocumentMoniker": "Controllers\\ComprasController.cs",
@@ -679,7 +707,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "Compras.cs",
               "DocumentMoniker": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Models\\Compras.cs",
               "RelativeDocumentMoniker": "Models\\Compras.cs",
@@ -691,7 +719,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Views\\Compras\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Compras\\Index.cshtml",
@@ -703,7 +731,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Views\\Proveedores\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Proveedores\\Details.cshtml",
@@ -715,7 +743,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "List.cshtml",
               "DocumentMoniker": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Views\\Facturas\\List.cshtml",
               "RelativeDocumentMoniker": "Views\\Facturas\\List.cshtml",
@@ -727,7 +755,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Views\\Facturas\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Facturas\\Index.cshtml",
@@ -739,7 +767,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Views\\Facturas\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Facturas\\Edit.cshtml",
@@ -751,7 +779,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Views\\Facturas\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Facturas\\Details.cshtml",
@@ -763,7 +791,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Views\\Facturas\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Facturas\\Delete.cshtml",
@@ -775,7 +803,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Views\\Proveedores\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Proveedores\\Delete.cshtml",
@@ -787,7 +815,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Views\\Facturas\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Facturas\\Create.cshtml",
@@ -799,7 +827,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "Facturas.cs",
               "DocumentMoniker": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Models\\Facturas.cs",
               "RelativeDocumentMoniker": "Models\\Facturas.cs",
@@ -808,18 +836,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-04T23:49:48.513Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "Empleado.cs",
-              "DocumentMoniker": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Models\\Empleado.cs",
-              "RelativeDocumentMoniker": "Models\\Empleado.cs",
-              "ToolTip": "C:\\Projectos\\NoSQL_Proyecto_Saule\\Models\\Empleado.cs",
-              "RelativeToolTip": "Models\\Empleado.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T23:49:47.929Z"
             }
           ]
         },
