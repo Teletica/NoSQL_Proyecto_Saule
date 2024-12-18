@@ -1,65 +1,149 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Proyectos\\NoSQL_Proyecto_Saule\\",
+  "WorkspaceRootPath": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|c:\\proyectos\\nosql_proyecto_saule\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|c:\\proyectos\\nosql_proyecto_saule\\views\\productos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:views\\productos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|c:\\proyectos\\nosql_proyecto_saule\\views\\grupos\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\views\\grupos\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:views\\grupos\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|c:\\proyectos\\nosql_proyecto_saule\\views\\productos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:views\\productos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|c:\\proyectos\\nosql_proyecto_saule\\views\\productos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:views\\productos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|c:\\proyectos\\nosql_proyecto_saule\\views\\productos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:views\\productos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|c:\\proyectos\\nosql_proyecto_saule\\views\\productos\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:views\\productos\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|c:\\proyectos\\nosql_proyecto_saule\\views\\grupos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:views\\grupos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|c:\\proyectos\\nosql_proyecto_saule\\controllers\\gruposcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:controllers\\gruposcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|c:\\proyectos\\nosql_proyecto_saule\\views\\grupos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\views\\grupos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:views\\grupos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|C:\\Proyectos\\NoSQL_Proyecto_Saule\\models\\grupo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:models\\grupo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|c:\\proyectos\\proyecto\\nosql_proyecto_saule\\views\\facturas\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:views\\facturas\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|c:\\proyectos\\nosql_proyecto_saule\\controllers\\marcascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|c:\\proyectos\\proyecto\\nosql_proyecto_saule\\views\\compras\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:views\\compras\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|c:\\proyectos\\proyecto\\nosql_proyecto_saule\\views\\compras\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:views\\compras\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|c:\\proyectos\\proyecto\\nosql_proyecto_saule\\views\\compras\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:views\\compras\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|c:\\proyectos\\proyecto\\nosql_proyecto_saule\\views\\categorias\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:views\\categorias\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|c:\\proyectos\\proyecto\\nosql_proyecto_saule\\views\\categorias\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:views\\categorias\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|c:\\proyectos\\proyecto\\nosql_proyecto_saule\\views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|c:\\proyectos\\proyecto\\nosql_proyecto_saule\\views\\roles\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:views\\roles\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|c:\\proyectos\\proyecto\\nosql_proyecto_saule\\views\\roles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:views\\roles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|c:\\proyectos\\proyecto\\nosql_proyecto_saule\\views\\recetas\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:views\\recetas\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|c:\\proyectos\\proyecto\\nosql_proyecto_saule\\views\\recetas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:views\\recetas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\views\\productos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:views\\productos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|c:\\proyectos\\proyecto\\nosql_proyecto_saule\\views\\facturas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:views\\facturas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|c:\\proyectos\\proyecto\\nosql_proyecto_saule\\views\\empleados\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:views\\empleados\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|c:\\proyectos\\proyecto\\nosql_proyecto_saule\\views\\empleados\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:views\\empleados\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|c:\\proyectos\\proyecto\\nosql_proyecto_saule\\views\\compras\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:views\\compras\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|c:\\proyectos\\proyecto\\nosql_proyecto_saule\\views\\clientes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:views\\clientes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|c:\\proyectos\\proyecto\\nosql_proyecto_saule\\views\\clientes\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:views\\clientes\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|c:\\proyectos\\proyecto\\nosql_proyecto_saule\\views\\proveedores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:views\\proveedores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|c:\\proyectos\\proyecto\\nosql_proyecto_saule\\views\\proveedores\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:views\\proveedores\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\controllers\\marcascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:controllers\\marcascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|c:\\proyectos\\nosql_proyecto_saule\\controllers\\proveedorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|c:\\proyectos\\proyecto\\nosql_proyecto_saule\\views\\marcas\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:views\\marcas\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|c:\\proyectos\\proyecto\\nosql_proyecto_saule\\views\\marcas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:views\\marcas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|c:\\proyectos\\proyecto\\nosql_proyecto_saule\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\views\\productos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:views\\productos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\views\\productos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:views\\productos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\views\\productos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:views\\productos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\views\\productos\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:views\\productos\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\views\\grupos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:views\\grupos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\controllers\\gruposcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:controllers\\gruposcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\models\\grupo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:models\\grupo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\controllers\\proveedorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:controllers\\proveedorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|c:\\proyectos\\nosql_proyecto_saule\\controllers\\rolscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\controllers\\rolscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:controllers\\rolscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|c:\\proyectos\\nosql_proyecto_saule\\controllers\\recetascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\controllers\\recetascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37D29D59-4DDE-4CCD-9864-44E9C14516AB}|NoSQL_Proyecto_Saule.csproj|solutionrelative:controllers\\recetascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -70,7 +154,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 61,
+          "SelectedChildIndex": 66,
           "Children": [
             {
               "$type": "Bookmark",
@@ -286,6 +370,10 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
@@ -298,89 +386,115 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Proyectos\\NoSQL_Proyecto_Saule\\Views\\Productos\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Productos\\Index.cshtml",
-              "ToolTip": "C:\\Proyectos\\NoSQL_Proyecto_Saule\\Views\\Productos\\Index.cshtml",
-              "RelativeToolTip": "Views\\Productos\\Index.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAwBcAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-18T04:06:06.535Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Proyectos\\NoSQL_Proyecto_Saule\\Views\\Productos\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Productos\\Edit.cshtml",
-              "ToolTip": "C:\\Proyectos\\NoSQL_Proyecto_Saule\\Views\\Productos\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Productos\\Edit.cshtml",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAAwFQAAAAGAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Compras\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Compras\\Edit.cshtml",
+              "ToolTip": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Compras\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Compras\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-18T04:05:50.574Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Proyectos\\NoSQL_Proyecto_Saule\\Views\\Productos\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Productos\\Delete.cshtml",
-              "ToolTip": "C:\\Proyectos\\NoSQL_Proyecto_Saule\\Views\\Productos\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Productos\\Delete.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAwEkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-18T04:05:01.264Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Proyectos\\NoSQL_Proyecto_Saule\\Views\\Productos\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Productos\\Create.cshtml",
-              "ToolTip": "C:\\Proyectos\\NoSQL_Proyecto_Saule\\Views\\Productos\\Create.cshtml",
-              "RelativeToolTip": "Views\\Productos\\Create.cshtml",
-              "ViewState": "AgIAACkAAAAAAAAAAADwvzQAAABiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-18T04:04:34.119Z",
+              "WhenOpened": "2024-12-18T04:51:12.641Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "List.cshtml",
-              "DocumentMoniker": "C:\\Proyectos\\NoSQL_Proyecto_Saule\\Views\\Productos\\List.cshtml",
-              "RelativeDocumentMoniker": "Views\\Productos\\List.cshtml",
-              "ToolTip": "C:\\Proyectos\\NoSQL_Proyecto_Saule\\Views\\Productos\\List.cshtml",
-              "RelativeToolTip": "Views\\Productos\\List.cshtml",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAwDIAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Categorias\\List.cshtml",
+              "RelativeDocumentMoniker": "Views\\Categorias\\List.cshtml",
+              "ToolTip": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Categorias\\List.cshtml",
+              "RelativeToolTip": "Views\\Categorias\\List.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-18T04:04:16.956Z",
+              "WhenOpened": "2024-12-18T04:49:41.071Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductosController.cs",
-              "DocumentMoniker": "C:\\Proyectos\\NoSQL_Proyecto_Saule\\Controllers\\ProductosController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProductosController.cs",
-              "ToolTip": "C:\\Proyectos\\NoSQL_Proyecto_Saule\\Controllers\\ProductosController.cs",
-              "RelativeToolTip": "Controllers\\ProductosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T04:02:01.484Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Proyectos\\NoSQL_Proyecto_Saule\\Views\\Grupos\\Index.cshtml",
+              "DocumentMoniker": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Categorias\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Categorias\\Index.cshtml",
+              "ToolTip": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Categorias\\Index.cshtml",
+              "RelativeToolTip": "Views\\Categorias\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T04:49:33.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Empleados\\List.cshtml",
+              "RelativeDocumentMoniker": "Views\\Empleados\\List.cshtml",
+              "ToolTip": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Empleados\\List.cshtml",
+              "RelativeToolTip": "Views\\Empleados\\List.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T04:46:41.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Empleados\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Empleados\\Index.cshtml",
+              "ToolTip": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Empleados\\Index.cshtml",
+              "RelativeToolTip": "Views\\Empleados\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T04:46:33.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Facturas\\List.cshtml",
+              "RelativeDocumentMoniker": "Views\\Facturas\\List.cshtml",
+              "ToolTip": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Facturas\\List.cshtml",
+              "RelativeToolTip": "Views\\Facturas\\List.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T04:46:30.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Facturas\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Facturas\\Index.cshtml",
+              "ToolTip": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Facturas\\Index.cshtml",
+              "RelativeToolTip": "Views\\Facturas\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T04:46:27.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Compras\\List.cshtml",
+              "RelativeDocumentMoniker": "Views\\Compras\\List.cshtml",
+              "ToolTip": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Compras\\List.cshtml",
+              "RelativeToolTip": "Views\\Compras\\List.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T04:46:18.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Grupos\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Grupos\\Index.cshtml",
-              "ToolTip": "C:\\Proyectos\\NoSQL_Proyecto_Saule\\Views\\Grupos\\Index.cshtml",
+              "ToolTip": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Grupos\\Index.cshtml",
               "RelativeToolTip": "Views\\Grupos\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -389,13 +503,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "List.cshtml",
-              "DocumentMoniker": "C:\\Proyectos\\NoSQL_Proyecto_Saule\\Views\\Grupos\\List.cshtml",
+              "DocumentMoniker": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Grupos\\List.cshtml",
               "RelativeDocumentMoniker": "Views\\Grupos\\List.cshtml",
-              "ToolTip": "C:\\Proyectos\\NoSQL_Proyecto_Saule\\Views\\Grupos\\List.cshtml",
+              "ToolTip": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Grupos\\List.cshtml",
               "RelativeToolTip": "Views\\Grupos\\List.cshtml",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAwCoAAAB4AAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAwDAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-18T03:54:58.079Z",
               "EditorCaption": ""
@@ -403,93 +517,330 @@
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "ProveedorsController.cs",
-              "DocumentMoniker": "C:\\Proyectos\\NoSQL_Proyecto_Saule\\Controllers\\ProveedorsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProveedorsController.cs",
-              "ToolTip": "C:\\Proyectos\\NoSQL_Proyecto_Saule\\Controllers\\ProveedorsController.cs",
-              "RelativeToolTip": "Controllers\\ProveedorsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T03:49:47.702Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "RolsController.cs",
-              "DocumentMoniker": "C:\\Proyectos\\NoSQL_Proyecto_Saule\\Controllers\\RolsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\RolsController.cs",
-              "ToolTip": "C:\\Proyectos\\NoSQL_Proyecto_Saule\\Controllers\\RolsController.cs",
-              "RelativeToolTip": "Controllers\\RolsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T03:49:47.074Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "RecetasController.cs",
-              "DocumentMoniker": "C:\\Proyectos\\NoSQL_Proyecto_Saule\\Controllers\\RecetasController.cs",
-              "RelativeDocumentMoniker": "Controllers\\RecetasController.cs",
-              "ToolTip": "C:\\Proyectos\\NoSQL_Proyecto_Saule\\Controllers\\RecetasController.cs",
-              "RelativeToolTip": "Controllers\\RecetasController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T03:49:46.11Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Grupo.cs",
-              "DocumentMoniker": "C:\\Proyectos\\NoSQL_Proyecto_Saule\\Models\\Grupo.cs",
-              "RelativeDocumentMoniker": "Models\\Grupo.cs",
-              "ToolTip": "C:\\Proyectos\\NoSQL_Proyecto_Saule\\Models\\Grupo.cs",
-              "RelativeToolTip": "Models\\Grupo.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAiwBEAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T03:26:53.688Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GruposController.cs",
-              "DocumentMoniker": "C:\\Proyectos\\NoSQL_Proyecto_Saule\\Controllers\\GruposController.cs",
-              "RelativeDocumentMoniker": "Controllers\\GruposController.cs",
-              "ToolTip": "C:\\Proyectos\\NoSQL_Proyecto_Saule\\Controllers\\GruposController.cs",
-              "RelativeToolTip": "Controllers\\GruposController.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAkwEsAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T03:26:50.28Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Proyectos\\NoSQL_Proyecto_Saule\\Views\\Grupos\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Grupos\\Create.cshtml",
-              "ToolTip": "C:\\Proyectos\\NoSQL_Proyecto_Saule\\Views\\Grupos\\Create.cshtml",
-              "RelativeToolTip": "Views\\Grupos\\Create.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Recetas\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Recetas\\Index.cshtml",
+              "ToolTip": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Recetas\\Index.cshtml",
+              "RelativeToolTip": "Views\\Recetas\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-18T03:51:16.76Z",
+              "WhenOpened": "2024-12-18T04:47:09.771Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "MarcasController.cs",
-              "DocumentMoniker": "C:\\Proyectos\\NoSQL_Proyecto_Saule\\Controllers\\MarcasController.cs",
-              "RelativeDocumentMoniker": "Controllers\\MarcasController.cs",
-              "ToolTip": "C:\\Proyectos\\NoSQL_Proyecto_Saule\\Controllers\\MarcasController.cs",
-              "RelativeToolTip": "Controllers\\MarcasController.cs",
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Recetas\\List.cshtml",
+              "RelativeDocumentMoniker": "Views\\Recetas\\List.cshtml",
+              "ToolTip": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Recetas\\List.cshtml",
+              "RelativeToolTip": "Views\\Recetas\\List.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T04:47:15.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Roles\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Roles\\Index.cshtml",
+              "ToolTip": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Roles\\Index.cshtml",
+              "RelativeToolTip": "Views\\Roles\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T04:47:24.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Compras\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Compras\\Index.cshtml",
+              "ToolTip": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Compras\\Index.cshtml",
+              "RelativeToolTip": "Views\\Compras\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T04:46:12.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Roles\\List.cshtml",
+              "RelativeDocumentMoniker": "Views\\Roles\\List.cshtml",
+              "ToolTip": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Roles\\List.cshtml",
+              "RelativeToolTip": "Views\\Roles\\List.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T04:47:30.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Clientes\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Clientes\\Index.cshtml",
+              "ToolTip": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Clientes\\Index.cshtml",
+              "RelativeToolTip": "Views\\Clientes\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T04:45:55.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Compras\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Compras\\Details.cshtml",
+              "ToolTip": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Compras\\Details.cshtml",
+              "RelativeToolTip": "Views\\Compras\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T04:46:10.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Clientes\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Clientes\\Details.cshtml",
+              "ToolTip": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Clientes\\Details.cshtml",
+              "RelativeToolTip": "Views\\Clientes\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T04:46:07.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Productos\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Productos\\Index.cshtml",
+              "ToolTip": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Productos\\Index.cshtml",
+              "RelativeToolTip": "Views\\Productos\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAwBcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T04:06:06.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Clientes\\List.cshtml",
+              "RelativeDocumentMoniker": "Views\\Clientes\\List.cshtml",
+              "ToolTip": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Clientes\\List.cshtml",
+              "RelativeToolTip": "Views\\Clientes\\List.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T04:45:59.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Proveedores\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Proveedores\\Index.cshtml",
+              "ToolTip": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Proveedores\\Index.cshtml",
+              "RelativeToolTip": "Views\\Proveedores\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T04:43:53.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Proveedores\\List.cshtml",
+              "RelativeDocumentMoniker": "Views\\Proveedores\\List.cshtml",
+              "ToolTip": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Proveedores\\List.cshtml",
+              "RelativeToolTip": "Views\\Proveedores\\List.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T04:43:42.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Marcas\\List.cshtml",
+              "RelativeDocumentMoniker": "Views\\Marcas\\List.cshtml",
+              "ToolTip": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Marcas\\List.cshtml",
+              "RelativeToolTip": "Views\\Marcas\\List.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T04:42:21.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Marcas\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Marcas\\Index.cshtml",
+              "ToolTip": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Marcas\\Index.cshtml",
+              "RelativeToolTip": "Views\\Marcas\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T04:41:56.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Productos\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Productos\\Delete.cshtml",
+              "ToolTip": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Productos\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Productos\\Delete.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T04:05:01.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Productos\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Productos\\Create.cshtml",
+              "ToolTip": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Productos\\Create.cshtml",
+              "RelativeToolTip": "Views\\Productos\\Create.cshtml",
+              "ViewState": "AgIAACkAAAAAAAAAAADwvzQAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T04:04:34.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Productos\\List.cshtml",
+              "RelativeDocumentMoniker": "Views\\Productos\\List.cshtml",
+              "ToolTip": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Productos\\List.cshtml",
+              "RelativeToolTip": "Views\\Productos\\List.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T04:04:16.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ProductosController.cs",
+              "DocumentMoniker": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Controllers\\ProductosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductosController.cs",
+              "ToolTip": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Controllers\\ProductosController.cs",
+              "RelativeToolTip": "Controllers\\ProductosController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwBEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T04:02:01.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MarcasController.cs",
+              "DocumentMoniker": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Controllers\\MarcasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MarcasController.cs",
+              "ToolTip": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Controllers\\MarcasController.cs",
+              "RelativeToolTip": "Controllers\\MarcasController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwCoAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-18T03:49:48.274Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Productos\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Productos\\Edit.cshtml",
+              "ToolTip": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Productos\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Productos\\Edit.cshtml",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAAwFQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T04:05:50.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ProveedorsController.cs",
+              "DocumentMoniker": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Controllers\\ProveedorsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProveedorsController.cs",
+              "ToolTip": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Controllers\\ProveedorsController.cs",
+              "RelativeToolTip": "Controllers\\ProveedorsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T03:49:47.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "RolsController.cs",
+              "DocumentMoniker": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Controllers\\RolsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RolsController.cs",
+              "ToolTip": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Controllers\\RolsController.cs",
+              "RelativeToolTip": "Controllers\\RolsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T03:49:47.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "RecetasController.cs",
+              "DocumentMoniker": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Controllers\\RecetasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RecetasController.cs",
+              "ToolTip": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Controllers\\RecetasController.cs",
+              "RelativeToolTip": "Controllers\\RecetasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T03:49:46.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Grupo.cs",
+              "DocumentMoniker": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Models\\Grupo.cs",
+              "RelativeDocumentMoniker": "Models\\Grupo.cs",
+              "ToolTip": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Models\\Grupo.cs",
+              "RelativeToolTip": "Models\\Grupo.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAiwBEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T03:26:53.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "GruposController.cs",
+              "DocumentMoniker": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Controllers\\GruposController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GruposController.cs",
+              "ToolTip": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Controllers\\GruposController.cs",
+              "RelativeToolTip": "Controllers\\GruposController.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAkwEsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T03:26:50.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Grupos\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Grupos\\Create.cshtml",
+              "ToolTip": "C:\\Proyectos\\proyecto\\NoSQL_Proyecto_Saule\\Views\\Grupos\\Create.cshtml",
+              "RelativeToolTip": "Views\\Grupos\\Create.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T03:51:16.76Z"
             }
           ]
         },
