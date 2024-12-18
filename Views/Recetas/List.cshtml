@@ -6,6 +6,13 @@
 
 <h2>List</h2>
 
+<style>
+    td.descripcion-receta {
+        word-wrap: break-word;
+        max-width: 350px;
+    }
+</style>
+
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
@@ -28,7 +35,7 @@
 
 @foreach (var item in Model) {
     <tr>
-        <td>
+        <td class="descripcion-receta">
             @Html.DisplayFor(modelItem => item.descripcionReceta)
         </td>
         <td>
