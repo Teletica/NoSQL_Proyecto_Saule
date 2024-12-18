@@ -62,7 +62,6 @@ namespace NoSQL_Proyecto_Saule.Controllers
             {
                 if (imgLogoMarcaFile != null && imgLogoMarcaFile.ContentLength > 0)
                 {
-                    // Asegúrate de que el archivo esté llegando correctamente
                     System.Diagnostics.Debug.WriteLine("File received: " + imgLogoMarcaFile.FileName);
                     using (var binaryReader = new BinaryReader(imgLogoMarcaFile.InputStream))
                     {

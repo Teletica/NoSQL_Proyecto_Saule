@@ -10,6 +10,7 @@ namespace NoSQL_Proyecto_Saule.Models
 {
     public class Producto
     {
+
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
         public string Id { get; set; } // Corresponde al "_id" en MongoDB
@@ -21,8 +22,10 @@ namespace NoSQL_Proyecto_Saule.Models
         [BsonElement("descripcionProducto")]
         public string DescripcionProducto { get; set; }
 
-        [BsonElement("imagenProducto")]
-        public string ImagenProducto { get; set; }
+        [BsonElement("precio")]
+        [Required]
+        [Range(0, double.MaxValue, ErrorMessage = "El precio debe ser un valor positivo.")]
+        public decimal Precio { get; set; }
 
         [BsonElement("stockProducto")]
         public int StockProducto { get; set; }
@@ -43,5 +46,4 @@ namespace NoSQL_Proyecto_Saule.Models
         [BsonRepresentation(BsonType.ObjectId)]
         public string Id { get; set; }
     }
-
 }

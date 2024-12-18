@@ -19,6 +19,9 @@
                 @Html.DisplayNameFor(model => model.First().DescripcionProducto)
             </th>
             <th>
+                @Html.DisplayNameFor(model => model.First().Precio)
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.First().StockProducto)
             </th>
             <th>
@@ -36,6 +39,8 @@
                 <td>
                     @Html.DisplayFor(modelItem => item.DescripcionProducto)
                 </td>
+                <td>
+                    @string.Format("{0:C}", item.Precio) 
                 <td>
                     @Html.DisplayFor(modelItem => item.StockProducto)
                 </td>

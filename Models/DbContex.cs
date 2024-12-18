@@ -102,9 +102,13 @@ namespace NoSQL_Proyecto_Saule.Models
 
         public System.Data.Entity.DbSet<NoSQL_Proyecto_Saule.Models.Marca> Marcas { get; set; }
 
-        public System.Data.Entity.DbSet<NoSQL_Proyecto_Saule.Models.Proveedor> Proveedors { get; set; }
+        public System.Data.Entity.DbSet<NoSQL_Proyecto_Saule.Models.Proveedor> Proveedores { get; set; }
 
         public System.Data.Entity.DbSet<NoSQL_Proyecto_Saule.Models.Receta> Recetas { get; set; }
+
+        public System.Data.Entity.DbSet<NoSQL_Proyecto_Saule.Models.Grupo> Grupos { get; set; }
+
+        public System.Data.Entity.DbSet<NoSQL_Proyecto_Saule.Models.Producto> Productos { get; set; }
 
         public System.Data.Entity.DbSet<NoSQL_Proyecto_Saule.Models.Rol> Rols { get; set; }
     }

@@ -17,5 +17,12 @@ namespace NoSQL_Proyecto_Saule
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
+
+        protected void Application_BeginRequest(object sender, EventArgs e)
+        {
+            // Establecer la cultura en la que los números decimales usan el punto como separador
+            System.Threading.Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("es-CR"); // Configurar a cultura costarricense
+            System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("es-CR");
+        }
     }
 }
