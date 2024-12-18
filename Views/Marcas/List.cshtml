@@ -1,49 +1,55 @@
 ﻿@model IEnumerable<NoSQL_Proyecto_Saule.Models.Marca>
 
 @{
-    ViewBag.Title = "List";
+    ViewBag.Title = "Lista de Marcas";
 }
 
-<h2>List</h2>
-
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Crear Nueva", "Create", null, new { @class = "btn btn-dark no-border" })
 </p>
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>@Html.DisplayNameFor(model => model.nombreMarca)</th>
-            <th>Logo</th>
-            <th>@Html.DisplayNameFor(model => model.estadoMarca)</th>
-            <th>Actions</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
+<h2 style="font-family: Arial, Helvetica, sans-serif">Lista de Marcas</h2>
+
+<div class="table-responsive">
+    <table class="table table-striped table-bordered">
+        <thead>
             <tr>
-                <td>@Html.DisplayFor(modelItem => item.nombreMarca)</td>
-                <td>
-                    @if (item.imgLogoMarca != null && item.imgLogoMarca.Length > 0)
-                    {
-                        string imageBase64 = Convert.ToBase64String(item.imgLogoMarca);
-                        string imageSrc = $"data:image/png;base64,{imageBase64}";
-                        <img src="@imageSrc" alt="Logo de @item.nombreMarca" style="max-width: 100px; max-height: 100px;" />
-                    }
-                    else
-                    {
-                        <span>No logo available</span>
-                    }
-                </td>
-                <td>@Html.DisplayFor(modelItem => item.estadoMarca)</td>
-                <td>
-                    @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
-                    @Html.ActionLink("Delete", "Delete", new { id = item.Id })
-                </td>
+                <th>@Html.DisplayNameFor(model => model.First().nombreMarca)</th>
+                <th>Logo</th>
+                <th>@Html.DisplayNameFor(model => model.First().estadoMarca)</th>
+                <th>Acciones</th>
             </tr>
-        }
-    </tbody>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.nombreMarca)</td>
+                    <td>
+                        @if (item.imgLogoMarca != null && item.imgLogoMarca.Length > 0)
+                        {
+                            string imageBase64 = Convert.ToBase64String(item.imgLogoMarca);
+                            string imageSrc = $"data:image/png;base64,{imageBase64}";
+                            <img src="@imageSrc" alt="Logo de @item.nombreMarca" style="max-width: 100px; max-height: 100px;" />
+                        }
+                        else
+                        {
+                            <span>No logo available</span>
+                        }
+                    </td>
+                    <td>@Html.DisplayFor(modelItem => item.estadoMarca)</td>
+                    <td>
+                        @Html.ActionLink("Editar", "Edit", new { id = item.Id }, new { @class = "btn btn-dark no-border" }) |
+                        @Html.ActionLink("Eliminar", "Delete", new { id = item.Id }, new { @class = "btn btn-dark no-border" })
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
 
-</table>
-
+<style>
+    .no-border {
+        border-radius: 0 !important;
+    }
+</style>

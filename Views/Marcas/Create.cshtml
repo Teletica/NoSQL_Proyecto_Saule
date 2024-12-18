@@ -1,37 +1,41 @@
 ﻿@model NoSQL_Proyecto_Saule.Models.Marca
 
 @{
-    ViewBag.Title = "Create";
+    ViewBag.Title = "Crear Marca";
 }
 
-<h2>Create</h2> 
+<h2 style="font-family: Arial, Helvetica, sans-serif">
+    Insertar Marca.
+</h2>
 
 @using (Html.BeginForm(null, null, FormMethod.Post, new { enctype = "multipart/form-data" }))
 {
     @Html.AntiForgeryToken()
 
     <div class="form-horizontal">
-        <h4>Marca</h4>
         <hr />
-        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.ValidationSummary(true, "", new { @class = "alert alert-danger" })
 
+        <!-- Nombre de la Marca -->
         <div class="form-group">
-            @Html.LabelFor(model => model.nombreMarca, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.LabelFor(model => model.nombreMarca, "Nombre de la Marca", new { @class = "control-label col-md-2" })
             <div class="col-md-10">
                 @Html.EditorFor(model => model.nombreMarca, new { htmlAttributes = new { @class = "form-control" } })
                 @Html.ValidationMessageFor(model => model.nombreMarca, "", new { @class = "text-danger" })
             </div>
         </div>
 
+        <!-- Logo de la Marca -->
         <div class="form-group">
-            @Html.LabelFor(model => model.imgLogoMarca, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.LabelFor(model => model.imgLogoMarca, "Logo de la Marca", new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                <input type="file" id="imgLogoMarca" name="imgLogoMarcaFile" class="form-control"/>
+                <input type="file" id="imgLogoMarca" name="imgLogoMarcaFile" class="form-control" />
             </div>
         </div>
 
+        <!-- Estado de la Marca -->
         <div class="form-group">
-            @Html.LabelFor(model => model.estadoMarca, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.LabelFor(model => model.estadoMarca, "Estado", new { @class = "control-label col-md-2" })
             <div class="col-md-10">
                 <div class="checkbox">
                     @Html.EditorFor(model => model.estadoMarca)
@@ -40,14 +44,20 @@
             </div>
         </div>
 
+        <br />
+
+        <!-- Botones de Acción -->
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Create" class="btn btn-default" />
+                <button type="submit" class="btn btn-dark no-border">Guardar Marca</button>
+                <a href="@Url.Action("Index", "Marcas")" class="btn btn-dark no-border" style="width: 125px">Cancelar</a>
             </div>
         </div>
+
+        <style>
+            .no-border {
+                border-radius: 0 !important;
+            }
+        </style>
     </div>
 }
-
-<div>
-    @Html.ActionLink("Back to List", "Index")
-</div>
