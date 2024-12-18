@@ -27,7 +27,13 @@ namespace NoSQL_Proyecto_Saule.Models
         public decimal TotalNetoVenta { get; set; }
 
         [BsonElement("idCompra")]
-        [BsonRepresentation(BsonType.ObjectId)]
-        public string IdCompra { get; set; }
+        public IdContainer IdCompra { get; set; }
+
+        public class IdContainer
+        {
+            [BsonElement("_id")]
+            [BsonRepresentation(BsonType.ObjectId)]
+            public string Id { get; set; }
+        }
     }
 }

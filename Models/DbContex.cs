@@ -45,7 +45,7 @@ namespace NoSQL_Proyecto_Saule.Models
         {
             get
             {
-                return _database.GetCollection<Facturas>("Facturas");
+                return _database.GetCollection<Facturas>("Factura");
             }
         }
         public IMongoCollection<Cliente> ClienteCollection
@@ -101,7 +101,7 @@ namespace NoSQL_Proyecto_Saule.Models
         {
             get
             {
-                return _database.GetCollection<Venta>("Ventas");
+                return _database.GetCollection<Venta>("Venta");
             }
         }
 
