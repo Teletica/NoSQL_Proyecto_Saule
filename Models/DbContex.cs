@@ -45,7 +45,7 @@ namespace NoSQL_Proyecto_Saule.Models
         {
             get
             {
-                return _database.GetCollection<Facturas>("Facturas");
+                return _database.GetCollection<Facturas>("Factura");
             }
         }
         public IMongoCollection<Cliente> ClienteCollection
@@ -97,6 +97,14 @@ namespace NoSQL_Proyecto_Saule.Models
                 return _database.GetCollection<Receta>("Receta");
             }
         }
+        public IMongoCollection<Venta> VentasCollection
+        {
+            get
+            {
+                return _database.GetCollection<Venta>("Venta");
+            }
+        }
+
 
         public System.Data.Entity.DbSet<NoSQL_Proyecto_Saule.Models.Categoria> Categorias { get; set; }
 

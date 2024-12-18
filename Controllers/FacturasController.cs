@@ -1,6 +1,7 @@
 ﻿using MongoDB.Driver;
 using NoSQL_Proyecto_Saule.Models;
 using System;
+using System.Linq;
 using System.Net;
 using System.Web.Mvc;
 
@@ -24,6 +25,8 @@ namespace NoSQL_Proyecto_Saule.Controllers
         // GET: Facturas/List
         public ActionResult List()
         {
+
+
             var facturas = _context.FacturasCollection.Find(_ => true).ToList(); // Obtener todas las facturas
             return View(facturas);
         }
@@ -46,6 +49,38 @@ namespace NoSQL_Proyecto_Saule.Controllers
         // GET: Facturas/Create
         public ActionResult Create()
         {
+            // Paso 1: Recuperar datos de Compras desde MongoDB
+            var comprasRaw = _context.ComprasCollection
+                .Find(_ => true)
+                .Project(c => new { c.Id, c.FechaCompra })
+                .ToList();
+
+            var compras = comprasRaw
+                .Select(c => new SelectListItem
+                {
+                    Value = c.Id, // El ID de la compra
+                    Text = $"Compra ID: {c.Id} - Fecha: {c.FechaCompra:dd/MM/yyyy}" // Formatear la fecha
+                })
+                .ToList();
+
+            // Paso 2: Recuperar datos de Ventas desde MongoDB
+            var ventasRaw = _context.VentasCollection
+                .Find(_ => true)
+                .Project(v => new { v.Id, v.TotalNetoVenta })
+                .ToList();
+
+            var ventas = ventasRaw
+                .Select(v => new SelectListItem
+                {
+                    Value = v.Id, // El ID de la venta
+                    Text = $"Venta ID: {v.Id} - Total Neto: {v.TotalNetoVenta:C}" // Formatear el total neto como moneda
+                })
+                .ToList();
+
+            // Paso 3: Asignar listas a ViewBag
+            ViewBag.Compras = compras;
+            ViewBag.Ventas = ventas;
+
             return View();
         }
 
@@ -59,12 +94,77 @@ namespace NoSQL_Proyecto_Saule.Controllers
                 return RedirectToAction("Index");
             }
 
+            // Paso 1: Recuperar datos de Compras desde MongoDB
+            var comprasRaw = _context.ComprasCollection
+                .Find(_ => true)
+                .Project(c => new { c.Id, c.FechaCompra })
+                .ToList();
+
+            var compras = comprasRaw
+                .Select(c => new SelectListItem
+                {
+                    Value = c.Id, // El ID de la compra
+                    Text = $"Compra ID: {c.Id} - Fecha: {c.FechaCompra:dd/MM/yyyy}" // Formatear la fecha
+                })
+                .ToList();
+
+            // Paso 2: Recuperar datos de Ventas desde MongoDB
+            var ventasRaw = _context.VentasCollection
+                .Find(_ => true)
+                .Project(v => new { v.Id, v.TotalNetoVenta })
+                .ToList();
+
+            var ventas = ventasRaw
+                .Select(v => new SelectListItem
+                {
+                    Value = v.Id, // El ID de la venta
+                    Text = $"Venta ID: {v.Id} - Total Neto: {v.TotalNetoVenta:C}" // Formatear el total neto como moneda
+                })
+                .ToList();
+
+            // Paso 3: Asignar listas a ViewBag
+            ViewBag.Compras = compras;
+            ViewBag.Ventas = ventas;
+
+
             return View(factura);
         }
 
         // GET: Facturas/Edit/5
         public ActionResult Edit(string id)
         {
+            // Paso 1: Recuperar datos de Compras desde MongoDB
+            var comprasRaw = _context.ComprasCollection
+                .Find(_ => true)
+                .Project(c => new { c.Id, c.FechaCompra })
+                .ToList();
+
+            var compras = comprasRaw
+                .Select(c => new SelectListItem
+                {
+                    Value = c.Id, // El ID de la compra
+                    Text = $"Compra ID: {c.Id} - Fecha: {c.FechaCompra:dd/MM/yyyy}" // Formatear la fecha
+                })
+                .ToList();
+
+            // Paso 2: Recuperar datos de Ventas desde MongoDB
+            var ventasRaw = _context.VentasCollection
+                .Find(_ => true)
+                .Project(v => new { v.Id, v.TotalNetoVenta })
+                .ToList();
+
+            var ventas = ventasRaw
+                .Select(v => new SelectListItem
+                {
+                    Value = v.Id, // El ID de la venta
+                    Text = $"Venta ID: {v.Id} - Total Neto: {v.TotalNetoVenta:C}" // Formatear el total neto como moneda
+                })
+                .ToList();
+
+            // Paso 3: Asignar listas a ViewBag
+            ViewBag.Compras = compras;
+            ViewBag.Ventas = ventas;
+
             var factura = _context.FacturasCollection
                 .Find(f => f.Id == id)
                 .FirstOrDefault(); // Buscar factura por ID
@@ -93,6 +193,39 @@ namespace NoSQL_Proyecto_Saule.Controllers
 
                 return RedirectToAction("Index");
             }
+
+
+            // Paso 1: Recuperar datos de Compras desde MongoDB
+            var comprasRaw = _context.ComprasCollection
+                .Find(_ => true)
+                .Project(c => new { c.Id, c.FechaCompra })
+                .ToList();
+
+            var compras = comprasRaw
+                .Select(c => new SelectListItem
+                {
+                    Value = c.Id, // El ID de la compra
+                    Text = $"Compra ID: {c.Id} - Fecha: {c.FechaCompra:dd/MM/yyyy}" // Formatear la fecha
+                })
+                .ToList();
+
+            // Paso 2: Recuperar datos de Ventas desde MongoDB
+            var ventasRaw = _context.VentasCollection
+                .Find(_ => true)
+                .Project(v => new { v.Id, v.TotalNetoVenta })
+                .ToList();
+
+            var ventas = ventasRaw
+                .Select(v => new SelectListItem
+                {
+                    Value = v.Id, // El ID de la venta
+                    Text = $"Venta ID: {v.Id} - Total Neto: {v.TotalNetoVenta:C}" // Formatear el total neto como moneda
+                })
+                .ToList();
+
+            // Paso 3: Asignar listas a ViewBag
+            ViewBag.Compras = compras;
+            ViewBag.Ventas = ventas;
 
             return View(factura);
         }

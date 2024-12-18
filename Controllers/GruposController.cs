@@ -19,7 +19,7 @@ namespace NoSQL_Proyecto_Saule.Controllers
         // GET: Grupos
         public ActionResult Index()
         {
-            return RedirectToAction("List"); // Redirige a la lista de grupos.
+            return View(); // Redirige a la lista de grupos.
         }
 
         // GET: Grupos/List

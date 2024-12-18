@@ -12,10 +12,17 @@ namespace NoSQL_Proyecto_Saule.Models
 
         [Required]
         [BsonElement("idCompra")]
-        public string IdCompra { get; set; } // Cambiado de BsonValue a string
+        public IdContainer IdCompra { get; set; } // Cambiado de BsonValue a string
 
         [Required]
         [BsonElement("idVenta")]
-        public string IdVenta { get; set; } // Cambiado de BsonValue a string
+        public IdContainer IdVenta { get; set; } // Cambiado de BsonValue a string
+
+        public class IdContainer
+        {
+            [BsonElement("_id")]
+            [BsonRepresentation(BsonType.ObjectId)]
+            public string Id { get; set; }
+        }
     }
 }

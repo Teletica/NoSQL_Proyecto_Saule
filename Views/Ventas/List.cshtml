@@ -1,0 +1,40 @@
+﻿@model IEnumerable<NoSQL_Proyecto_Saule.Models.Venta>
+
+@{
+    ViewBag.Title = "List";
+}
+
+<h2>Ventas</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Volver a Ventas", "Index", "Ventas", null, new { style = "margin-left: 10px;" })
+</p>
+
+</p>
+
+<table class="table">
+    <tr>
+        <th>Total Bruto</th>
+        <th>Descuento</th>
+        <th>Impuesto</th>
+        <th>Total Neto</th>
+        <th>ID Compra</th>
+        <th>Actions</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.TotalBrutoVenta</td>
+            <td>@item.DescuentoVenta</td>
+            <td>@item.ImpuestoVenta</td>
+            <td>@item.TotalNetoVenta</td>
+            <td>@item.IdCompra</td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+            </td>
+        </tr>
+    }
+</table>

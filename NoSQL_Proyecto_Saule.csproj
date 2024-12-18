@@ -227,6 +227,7 @@
     <Compile Include="Controllers\ProveedorsController.cs" />
     <Compile Include="Controllers\RecetasController.cs" />
     <Compile Include="Controllers\RolsController.cs" />
+    <Compile Include="Controllers\VentasController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -242,6 +243,7 @@
     <Compile Include="Models\Proveedor.cs" />
     <Compile Include="Models\Receta.cs" />
     <Compile Include="Models\Rol.cs" />
+    <Compile Include="Models\Venta.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -359,6 +361,11 @@
     <Content Include="Views\Productos\Delete.cshtml" />
     <Content Include="Views\Productos\Edit.cshtml" />
     <Content Include="Views\Productos\Index.cshtml" />
+    <Content Include="Views\Ventas\Create.cshtml" />
+    <Content Include="Views\Ventas\Delete.cshtml" />
+    <Content Include="Views\Ventas\Edit.cshtml" />
+    <Content Include="Views\Ventas\Index.cshtml" />
+    <Content Include="Views\Ventas\List.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
