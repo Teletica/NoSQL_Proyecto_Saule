@@ -66,6 +66,17 @@ namespace NoSQL_Proyecto_Saule.Controllers
         // GET: Grupos/Create
         public ActionResult Create()
         {
+            var categorias = _context.CategorialCollection
+                           .Find(_ => true)
+                           .Project(c => new SelectListItem
+                           {
+                               Value = c.Id,
+                               Text = c.nombreCategoria
+                           })
+                           .ToList();
+
+            ViewBag.Categorias = categorias; 
+
             return View();
         }
 
