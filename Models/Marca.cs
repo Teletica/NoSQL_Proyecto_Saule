@@ -19,9 +19,9 @@ namespace NoSQL_Proyecto_Saule.Models
         [BsonElement("nombreMarca")]
         public string nombreMarca { get; set; }
 
-        [Required]
         [BsonElement("imgLogoMarca")]
-        public string imgLogoMarca { get; set; }
+        [BsonRepresentation(BsonType.Binary)]
+        public byte[] imgLogoMarca { get; set; }
 
         [Required]
         [BsonElement("estadoMarca")]

@@ -316,7 +316,6 @@
     <Content Include="Views\Proveedores\Index.cshtml" />
     <Content Include="Views\Marcas\Create.cshtml" />
     <Content Include="Views\Marcas\Delete.cshtml" />
-    <Content Include="Views\Marcas\Details.cshtml" />
     <Content Include="Views\Marcas\Edit.cshtml" />
     <Content Include="Views\Marcas\Index.cshtml" />
     <Content Include="Views\Marcas\List.cshtml" />

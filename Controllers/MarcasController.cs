@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Web;
@@ -54,16 +55,33 @@ namespace NoSQL_Proyecto_Saule.Controllers
 
         // POST: Marcas/Create
         [HttpPost]
-        public ActionResult Create(Marca marca)
+        [ValidateAntiForgeryToken]
+        public ActionResult Create(Marca marca, HttpPostedFileBase imgLogoMarcaFile)
         {
             if (ModelState.IsValid)
             {
+                if (imgLogoMarcaFile != null && imgLogoMarcaFile.ContentLength > 0)
+                {
+                    // Asegúrate de que el archivo esté llegando correctamente
+                    System.Diagnostics.Debug.WriteLine("File received: " + imgLogoMarcaFile.FileName);
+                    using (var binaryReader = new BinaryReader(imgLogoMarcaFile.InputStream))
+                    {
+                        marca.imgLogoMarca = binaryReader.ReadBytes(imgLogoMarcaFile.ContentLength);
+                    }
+                }
+                else
+                {
+                    // Si no hay archivo, agrega un mensaje de depuración
+                    System.Diagnostics.Debug.WriteLine("No file received.");
+                }
+
                 _context.MarcaCollection.InsertOne(marca);
                 return RedirectToAction("Index");
             }
 
             return View(marca);
         }
+
 
         // GET: Marcas/Edit/5
         public ActionResult Edit(string id)
@@ -82,7 +100,8 @@ namespace NoSQL_Proyecto_Saule.Controllers
 
         // POST: Marcas/Edit/5
         [HttpPost]
-        public ActionResult Edit(string id, Marca marca)
+        [ValidateAntiForgeryToken]
+        public ActionResult Edit(string id, Marca marca, HttpPostedFileBase imgLogoMarcaFile)
         {
             if (id != marca.Id)
             {
@@ -91,6 +110,20 @@ namespace NoSQL_Proyecto_Saule.Controllers
 
             if (ModelState.IsValid)
             {
+                if (imgLogoMarcaFile != null && imgLogoMarcaFile.ContentLength > 0)
+                {
+                    using (var binaryReader = new BinaryReader(imgLogoMarcaFile.InputStream))
+                    {
+                        marca.imgLogoMarca = binaryReader.ReadBytes(imgLogoMarcaFile.ContentLength);
+                    }
+                }
+                else
+                {
+                    // Si no se ha subido un nuevo archivo, mantenemos la imagen actual
+                    var existingMarca = _context.MarcaCollection.Find(e => e.Id == id).FirstOrDefault();
+                    marca.imgLogoMarca = existingMarca?.imgLogoMarca;
+                }
+
                 var filter = Builders<Marca>.Filter.Eq(e => e.Id, id);
                 _context.MarcaCollection.ReplaceOne(filter, marca); // Actualiza el documento
 
