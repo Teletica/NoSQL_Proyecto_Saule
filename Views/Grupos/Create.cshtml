@@ -32,10 +32,13 @@
     </div>
 
     <div class="form-group">
-        @Html.LabelFor(model => model.IdCategoria, "Categoría", new { @class = "control-label col-md-2" })
+        @Html.LabelFor(model => model.IdCategoria.Id, "Categoría", new { @class = "control-label col-md-2" })
         <div class="col-md-10">
-            @Html.DropDownList("IdCategoria", (IEnumerable<SelectListItem>)ViewBag.Categorias, "Seleccione una categoría", new { @class = "form-control" })
-            @Html.ValidationMessageFor(model => model.IdCategoria, "", new { @class = "text-danger" })
+            @Html.DropDownListFor(model => model.IdCategoria.Id,
+                new SelectList(ViewBag.Categorias, "Value", "Text"),
+                "Seleccione una Categoría",
+                new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.IdCategoria.Id, "", new { @class = "text-danger" })
         </div>
     </div>
 
