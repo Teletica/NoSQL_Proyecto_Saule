@@ -50,6 +50,17 @@ namespace NoSQL_Proyecto_Saule.Controllers
         // GET: Empleados/Create
         public ActionResult Create()
         {
+            var Rol = _context.RolCollection
+                             .Find(_ => true)
+                             .Project(g => new SelectListItem
+                             {
+                                 Value = g.Id,
+                                 Text = g.nombreRol 
+                             })
+                             .ToList();
+            ViewBag.Rol = Rol;
+
+
             return View();
         }
 
@@ -62,6 +73,16 @@ namespace NoSQL_Proyecto_Saule.Controllers
                 _context.EmpleadoCollection.InsertOne(empleado);
                 return RedirectToAction("Index");
             }
+
+            var Rol = _context.RolCollection
+                             .Find(_ => true)
+                             .Project(g => new SelectListItem
+                             {
+                                 Value = g.Id,
+                                 Text = g.nombreRol
+                             })
+                             .ToList();
+            ViewBag.Rol = Rol;
 
             return View(empleado);
         }

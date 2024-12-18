@@ -15,12 +15,23 @@ namespace NoSQL_Proyecto_Saule.Controllers
         {
             _context = new DbContex(); // Inicializa el contexto
         }
+    
 
         // GET: Compras
         public ActionResult Index()
         {
-            return RedirectToAction("List"); // Redirige directamente a la lista
+            try
+            {
+                var compras = _context.ComprasCollection.Find(_ => true).ToList();
+                return View(compras); // Retorna la vista Index con datos.
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Error = $"Error al obtener la lista de compras: {ex.Message}";
+                return View("Error"); // Retorna una vista de error en caso de excepción.
+            }
         }
+
 
         // GET: Compras/List
         public ActionResult List()
