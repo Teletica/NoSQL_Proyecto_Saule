@@ -146,40 +146,24 @@ namespace NoSQL_Proyecto_Saule.Controllers
                 return HttpNotFound();
             }
 
-            // Cargar las listas desplegables de Grupos, Marcas y Proveedores
+            // Cargar listas para dropdowns
             var grupos = _context.GrupoCollection
                                  .Find(_ => true)
-                                 .Project(g => new SelectListItem
-                                 {
-                                     Value = g.Id,
-                                     Text = g.nombrGrupo // Asegúrate de que 'nombrGrupo' es el nombre correcto
-                                 })
                                  .ToList();
-            ViewBag.Grupos = grupos;
+            ViewBag.Grupos = new SelectList(grupos, "Id", "nombrGrupo", producto.IdGrupo?.Id);
 
             var marcas = _context.MarcaCollection
                                  .Find(_ => true)
-                                 .Project(m => new SelectListItem
-                                 {
-                                     Value = m.Id,
-                                     Text = m.nombreMarca // Asegúrate de que 'nombreMarca' es el nombre correcto
-                                 })
                                  .ToList();
-            ViewBag.Marcas = marcas;
+            ViewBag.Marcas = new SelectList(marcas, "Id", "nombreMarca", producto.IdMarca?.Id);
 
             var proveedores = _context.ProveedorCollection
                                       .Find(_ => true)
-                                      .Project(p => new SelectListItem
-                                      {
-                                          Value = p.Id,
-                                          Text = p.NombreProveedor // Asegúrate de que 'NombreProveedor' es el nombre correcto
-                                      })
                                       .ToList();
-            ViewBag.Proveedores = proveedores;
+            ViewBag.Proveedores = new SelectList(proveedores, "Id", "NombreProveedor", producto.IdProveedor?.Id);
 
             return View(producto);
         }
-
 
         // POST: Productos/Edit/5
         [HttpPost]
@@ -193,61 +177,76 @@ namespace NoSQL_Proyecto_Saule.Controllers
 
             if (ModelState.IsValid)
             {
-                // Actualizar producto en la base de datos
                 var filter = Builders<Producto>.Filter.Eq(p => p.Id, id);
                 _context.ProductoCollection.ReplaceOne(filter, producto);
 
                 return RedirectToAction("List");
             }
 
+            // Volver a cargar las listas desplegables si el modelo no es válido
+            var grupos = _context.GrupoCollection
+                                 .Find(_ => true)
+                                 .ToList();
+            ViewBag.Grupos = new SelectList(grupos, "Id", "nombrGrupo", producto.IdGrupo?.Id);
+
+            var marcas = _context.MarcaCollection
+                                 .Find(_ => true)
+                                 .ToList();
+            ViewBag.Marcas = new SelectList(marcas, "Id", "nombreMarca", producto.IdMarca?.Id);
+
+            var proveedores = _context.ProveedorCollection
+                                      .Find(_ => true)
+                                      .ToList();
+            ViewBag.Proveedores = new SelectList(proveedores, "Id", "NombreProveedor", producto.IdProveedor?.Id);
+
             return View(producto);
         }
+
 
         // GET: Productos/Delete/5
         public ActionResult Delete(string id)
         {
+            if (string.IsNullOrEmpty(id))
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest, "ID inválido.");
+            }
+
             var producto = _context.ProductoCollection
                 .Find(p => p.Id == id)
                 .FirstOrDefault();
 
             if (producto == null)
             {
-                return HttpNotFound();
+                return HttpNotFound("Producto no encontrado.");
             }
-
-            // Obtener el nombre del Grupo
-            var grupo = _context.GrupoCollection
-                .Find(g => g.Id == producto.IdGrupo.Id)
-                .FirstOrDefault();
-
-            // Obtener el nombre de la Marca
-            var marca = _context.MarcaCollection
-                .Find(m => m.Id == producto.IdMarca.Id)
-                .FirstOrDefault();
-
-            // Obtener el nombre del Proveedor
-            var proveedor = _context.ProveedorCollection
-                .Find(p => p.Id == producto.IdProveedor.Id)
-                .FirstOrDefault();
-
-            // Asignar los nombres a las propiedades del modelo para mostrarlos en la vista
-            if (grupo != null) producto.NombreGrupo = grupo.nombrGrupo;
-            if (marca != null) producto.NombreMarca = marca.nombreMarca;
-            if (proveedor != null) producto.NombreProveedor = proveedor.NombreProveedor;
 
             return View(producto);
         }
 
-
-        // POST: Productos/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(string id)
         {
+            if (string.IsNullOrEmpty(id))
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest, "ID inválido.");
+            }
+
+            var producto = _context.ProductoCollection
+                .Find(p => p.Id == id)
+                .FirstOrDefault();
+
+            if (producto == null)
+            {
+                return HttpNotFound("Producto no encontrado.");
+            }
+
+            // Eliminar el producto
             var filter = Builders<Producto>.Filter.Eq(p => p.Id, id);
             _context.ProductoCollection.DeleteOne(filter);
 
-            return RedirectToAction("List");
+            return RedirectToAction("Index");
         }
+
     }
 }

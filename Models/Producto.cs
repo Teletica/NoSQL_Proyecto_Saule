@@ -25,7 +25,7 @@ namespace NoSQL_Proyecto_Saule.Models
         [BsonElement("precio")]
         [Required]
         [Range(0, double.MaxValue, ErrorMessage = "El precio debe ser un valor positivo.")]
-        public decimal Precio { get; set; }
+        public int Precio { get; set; }
 
         [BsonElement("stockProducto")]
         public int StockProducto { get; set; }
