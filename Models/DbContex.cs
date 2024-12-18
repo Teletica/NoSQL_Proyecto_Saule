@@ -97,6 +97,14 @@ namespace NoSQL_Proyecto_Saule.Models
                 return _database.GetCollection<Receta>("Receta");
             }
         }
+        public IMongoCollection<Venta> VentasCollection
+        {
+            get
+            {
+                return _database.GetCollection<Venta>("Ventas");
+            }
+        }
+
 
         public System.Data.Entity.DbSet<NoSQL_Proyecto_Saule.Models.Categoria> Categorias { get; set; }
 
