@@ -230,11 +230,6 @@ namespace NoSQL_Proyecto_Saule.Controllers
                 .Find(p => p.Id == producto.IdProveedor.Id)
                 .FirstOrDefault();
 
-            // Asignar los nombres a las propiedades del modelo para mostrarlos en la vista
-            if (grupo != null) producto.NombreGrupo = grupo.nombrGrupo;
-            if (marca != null) producto.NombreMarca = marca.nombreMarca;
-            if (proveedor != null) producto.NombreProveedor = proveedor.NombreProveedor;
-
             return View(producto);
         }
 

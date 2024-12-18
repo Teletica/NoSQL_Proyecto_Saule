@@ -33,11 +33,18 @@ namespace NoSQL_Proyecto_Saule.Models
         public string DescripcionHorarioEmpleado { get; set; }
 
         [BsonElement("idRol")]
-        public BsonValue IdRol { get; set; }
+        public IdContainer IdRol { get; set; }
 
         [Required]
         [BsonElement("contactoEmpleado")]
         public ContactoEmpleado contactoEmpelado { get; set; }
+
+        public class IdContainer
+        {
+            [BsonElement("_id")]
+            [BsonRepresentation(BsonType.ObjectId)]
+            public string Id { get; set; }
+        }
 
         public class ContactoEmpleado
         {
