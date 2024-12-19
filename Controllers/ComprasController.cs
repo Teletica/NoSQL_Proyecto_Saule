@@ -4,6 +4,7 @@ using System.Web.Mvc;
 using MongoDB.Driver;
 using NoSQL_Proyecto_Saule.Models;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace NoSQL_Proyecto_Saule.Controllers
 {
@@ -130,7 +131,7 @@ namespace NoSQL_Proyecto_Saule.Controllers
         // POST: Compras/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(string id, Compras compra)
+        public ActionResult Edit(string id, Compras compra, string ProductosCompra)
         {
             if (id != compra.Id)
             {
@@ -141,6 +142,18 @@ namespace NoSQL_Proyecto_Saule.Controllers
             {
                 try
                 {
+                    // Convierte la cadena a una lista de productos
+                    if (!string.IsNullOrEmpty(ProductosCompra))
+                    {
+                        compra.ProductosCompra = ProductosCompra.Split(new[] { ',' }, StringSplitOptions.RemoveEmptyEntries)
+                                                                 .Select(p => p.Trim())
+                                                                 .ToList();
+                    }
+                    else
+                    {
+                        compra.ProductosCompra = new List<string>();
+                    }
+
                     var filter = Builders<Compras>.Filter.Eq(e => e.Id, id);
                     _context.ComprasCollection.ReplaceOne(filter, compra);
                     return RedirectToAction("List");
